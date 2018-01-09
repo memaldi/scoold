@@ -61,7 +61,7 @@ public class ScooldServer {
 	public static final String LOCALE_COOKIE = Config.getRootAppIdentifier() + "-locale";
 	public static final String CSRF_COOKIE = Config.getRootAppIdentifier() + "-csrf";
 	public static final String TOKEN_PREFIX = "ST_";
-	public static final String HOMEPAGE = "/";
+	public static final String HOMEPAGE = "/qa";
 	public static final String HOST_URL = Config.getConfigParam("host_url", HOMEPAGE);
 	public static final String CDN_URL = Config.getConfigParam("cdn_url", Config.IN_PRODUCTION ? HOST_URL : HOMEPAGE);
 	public static final String AUTH_USER_ATTRIBUTE = TOKEN_PREFIX + "AUTH_USER";
